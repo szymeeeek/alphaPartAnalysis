@@ -1,0 +1,68 @@
+15.dat INT: 105637
+15.dat amplitude = 1046.69
+15.dat mean = 4589.51
+15.dat sigma = 307.862
+45.dat INT: 67680
+45.dat amplitude = 737.461
+45.dat mean = 4449.63
+45.dat sigma = 279.75
+75.dat INT: 45476
+75.dat amplitude = 536.368
+75.dat mean = 4286.72
+75.dat sigma = 258.353
+105.dat INT: 32532
+105.dat amplitude = 413.896
+105.dat mean = 4120.72
+105.dat sigma = 238.888
+135.dat INT: 24204
+135.dat amplitude = 319.546
+135.dat mean = 3959.86
+135.dat sigma = 228.472
+165.dat INT: 18711
+165.dat amplitude = 245.816
+165.dat mean = 3793.33
+165.dat sigma = 226.804
+195.dat INT: 14785
+195.dat amplitude = 182.009
+195.dat mean = 3612.94
+195.dat sigma = 240.975
+225.dat INT: 15090
+225.dat amplitude = 168.793
+225.dat mean = 3407.66
+225.dat sigma = 262.69
+0022.dat INT: 22025
+0022.dat amplitude = 153.258
+0022.dat mean = 971.534
+0022.dat sigma = 492.847
+00115.dat INT: 6292
+00115.dat amplitude = 194.89
+00115.dat mean = -85.0111
+00115.dat sigma = 495.767
+0071.dat INT: 15875
+0071.dat amplitude = 207.762
+0071.dat mean = 4099.4
+0071.dat sigma = 231.462
+0091.dat INT: 17972
+0091.dat amplitude = 193.368
+0091.dat mean = 5028.96
+0091.dat sigma = 278.26
+003.dat INT: 23531
+003.dat amplitude = 157.904
+003.dat mean = 1701.02
+003.dat sigma = 451.448
+0037.dat INT: 19874
+0037.dat amplitude = 153.002
+0037.dat mean = 2282.05
+0037.dat sigma = 388.511
+0098.dat INT: 17257
+0098.dat amplitude = 186.27
+0098.dat mean = 5380.97
+0098.dat sigma = 276.563
+006.dat INT: 14926
+006.dat amplitude = 187.592
+006.dat mean = 3653.2
+006.dat sigma = 233.626
+0048.dat INT: 17563
+0048.dat amplitude = 166.851
+0048.dat mean = 3025.82
+0048.dat sigma = 312.818
