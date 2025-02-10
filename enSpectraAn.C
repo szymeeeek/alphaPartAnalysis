@@ -8,7 +8,7 @@ using namespace std;
 
 Bool_t Widmo(string filename) {
     //energy calib and histo definition
-    string outFile = "fitParamsTest.txt";
+    string outFile = "fitParams_absCounts.txt";
     string params[3] = {"amplitude", "mean", "sigma"};
     const Int_t nBins = 1024;
 
@@ -23,7 +23,7 @@ Bool_t Widmo(string filename) {
     }
 
     TH1F *hist = new TH1F(Form("Widmo%s", filename.c_str()), Form("Widmo %s", filename.c_str()), nBins, energyBins);
-    TF1 *gaus = new TF1("gaus", "gaus", minChannel, maxChannel);
+    TF1 *gaus = new TF1("gaus", "gaus", m*minChannel+b, m*maxChannel+b);
     gaus->SetParameters(500, 3000, 100);
     TFile *file = new TFile("integralsTest.root", "UPDATE");
 
@@ -53,12 +53,15 @@ Bool_t Widmo(string filename) {
 
     fstream myfile1;
     myfile1.open(outFile, ios::out | ios::app);
-    TFitResultPtr results = hist->Fit(gaus, "S");
+    TFitResultPtr results = hist->Fit(gaus, "");
     //     cout << "Chi2 = " << results->Chi2() << endl;
     //     cout << "NDF = " << results->Ndf() << endl;
     //     cout << "EDM = " << results->Edm() << endl;
 
-    gaus->Integral(minChannel, maxChannel);
+    Double_t absCounts = hist->Integral(0, 7500);
+
+    myfile1<<filename<<" INT: "<<absCounts<<endl;
+    cout<<"-----------------------"<<absCounts<<endl;
 
     for (int j=0;j<gaus->GetNpar();j++) {
         Float_t value = gaus->GetParameter(j);
