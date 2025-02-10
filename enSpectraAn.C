@@ -8,7 +8,7 @@ using namespace std;
 
 Bool_t Widmo(string filename) {
     //energy calib and histo definition
-    string outFile = "fitParams.txt";
+    string outFile = "fitParamsTest.txt";
     string params[3] = {"amplitude", "mean", "sigma"};
     const Int_t nBins = 1024;
 
@@ -25,7 +25,7 @@ Bool_t Widmo(string filename) {
     TH1F *hist = new TH1F(Form("Widmo%s", filename.c_str()), Form("Widmo %s", filename.c_str()), nBins, energyBins);
     TF1 *gaus = new TF1("gaus", "gaus", minChannel, maxChannel);
     gaus->SetParameters(500, 3000, 100);
-    TFile *file = new TFile("z30.root", "UPDATE");
+    TFile *file = new TFile("integralsTest.root", "UPDATE");
 
     //file opening and reading it
     fstream myfile(filename, ios::in);
@@ -57,6 +57,8 @@ Bool_t Widmo(string filename) {
     //     cout << "Chi2 = " << results->Chi2() << endl;
     //     cout << "NDF = " << results->Ndf() << endl;
     //     cout << "EDM = " << results->Edm() << endl;
+
+    gaus->Integral(minChannel, maxChannel);
 
     for (int j=0;j<gaus->GetNpar();j++) {
         Float_t value = gaus->GetParameter(j);
