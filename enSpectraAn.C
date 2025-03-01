@@ -65,7 +65,8 @@ Bool_t Widmo(string filename) {
 
     for (int j=0;j<gaus->GetNpar();j++) {
         Float_t value = gaus->GetParameter(j);
-        myfile1<<filename<<" "<<params[j]<<" = "<<value<<endl;
+        Float_t valEr = gaus->GetParError(j);
+        myfile1<<filename<<" "<<params[j]<<" = "<<value<<" "<<params[j]<<" error = "<<valEr<<endl;
     }
 
     TCanvas *c1 = new TCanvas(Form("%s",filename.c_str()), "Widmo", 800, 600);

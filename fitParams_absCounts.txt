@@ -1,68 +1,68 @@
 15.dat INT: 105637
-15.dat amplitude = 1046.69
-15.dat mean = 4589.51
-15.dat sigma = 307.862
+15.dat amplitude = 1046.69 amplitude error = 4.09454
+15.dat mean = 4589.51 mean error = 0.968728
+15.dat sigma = 307.862 sigma error = 0.72217
 45.dat INT: 67680
-45.dat amplitude = 737.461
-45.dat mean = 4449.63
-45.dat sigma = 279.75
+45.dat amplitude = 737.461 amplitude error = 3.59901
+45.dat mean = 4449.63 mean error = 1.09936
+45.dat sigma = 279.75 sigma error = 0.816124
 75.dat INT: 45476
-75.dat amplitude = 536.368
-75.dat mean = 4286.72
-75.dat sigma = 258.353
+75.dat amplitude = 536.368 amplitude error = 3.25219
+75.dat mean = 4286.72 mean error = 1.23529
+75.dat sigma = 258.353 sigma error = 0.967476
 105.dat INT: 32532
-105.dat amplitude = 413.896
-105.dat mean = 4120.72
-105.dat sigma = 238.888
+105.dat amplitude = 413.896 amplitude error = 3.00538
+105.dat mean = 4120.72 mean error = 1.35491
+105.dat sigma = 238.888 sigma error = 1.0909
 135.dat INT: 24204
-135.dat amplitude = 319.546
-135.dat mean = 3959.86
-135.dat sigma = 228.472
+135.dat amplitude = 319.546 amplitude error = 2.6876
+135.dat mean = 3959.86 mean error = 1.55019
+135.dat sigma = 228.472 sigma error = 1.20031
 165.dat INT: 18711
-165.dat amplitude = 245.816
-165.dat mean = 3793.33
-165.dat sigma = 226.804
+165.dat amplitude = 245.816 amplitude error = 2.38108
+165.dat mean = 3793.33 mean error = 1.84678
+165.dat sigma = 226.804 sigma error = 1.39079
 195.dat INT: 14785
-195.dat amplitude = 182.009
-195.dat mean = 3612.94
-195.dat sigma = 240.975
+195.dat amplitude = 182.009 amplitude error = 2.00511
+195.dat mean = 3612.94 mean error = 2.27648
+195.dat sigma = 240.975 sigma error = 1.71134
 225.dat INT: 15090
-225.dat amplitude = 168.793
-225.dat mean = 3407.66
-225.dat sigma = 262.69
+225.dat amplitude = 168.793 amplitude error = 1.8101
+225.dat mean = 3407.66 mean error = 2.56796
+225.dat sigma = 262.69 sigma error = 1.76017
 0022.dat INT: 22025
-0022.dat amplitude = 153.258
-0022.dat mean = 971.534
-0022.dat sigma = 492.847
+0022.dat amplitude = 153.258 amplitude error = 1.23474
+0022.dat mean = 971.534 mean error = 5.33068
+0022.dat sigma = 492.847 sigma error = 3.57006
 00115.dat INT: 6292
-00115.dat amplitude = 194.89
-00115.dat mean = -85.0111
-00115.dat sigma = 495.767
+00115.dat amplitude = 194.89 amplitude error = 25.8474
+00115.dat mean = -85.0111 mean error = 84.643
+00115.dat sigma = 495.767 sigma error = 25.0524
 0071.dat INT: 15875
-0071.dat amplitude = 207.762
-0071.dat mean = 4099.4
-0071.dat sigma = 231.462
+0071.dat amplitude = 207.762 amplitude error = 2.1438
+0071.dat mean = 4099.4 mean error = 1.89066
+0071.dat sigma = 231.462 sigma error = 1.48466
 0091.dat INT: 17972
-0091.dat amplitude = 193.368
-0091.dat mean = 5028.96
-0091.dat sigma = 278.26
+0091.dat amplitude = 193.368 amplitude error = 1.84887
+0091.dat mean = 5028.96 mean error = 2.2616
+0091.dat sigma = 278.26 sigma error = 1.59894
 003.dat INT: 23531
-003.dat amplitude = 157.904
-003.dat mean = 1701.02
-003.dat sigma = 451.448
+003.dat amplitude = 157.904 amplitude error = 1.34219
+003.dat mean = 1701.02 mean error = 3.40715
+003.dat sigma = 451.448 sigma error = 2.4468
 0037.dat INT: 19874
-0037.dat amplitude = 153.002
-0037.dat mean = 2282.05
-0037.dat sigma = 388.511
+0037.dat amplitude = 153.002 amplitude error = 1.4247
+0037.dat mean = 2282.05 mean error = 3.20829
+0037.dat sigma = 388.511 sigma error = 2.27599
 0098.dat INT: 17257
-0098.dat amplitude = 186.27
-0098.dat mean = 5380.97
-0098.dat sigma = 276.563
+0098.dat amplitude = 186.27 amplitude error = 1.85171
+0098.dat mean = 5380.97 mean error = 2.24697
+0098.dat sigma = 276.563 sigma error = 1.70406
 006.dat INT: 14926
-006.dat amplitude = 187.592
-006.dat mean = 3653.2
-006.dat sigma = 233.626
+006.dat amplitude = 187.592 amplitude error = 2.03143
+006.dat mean = 3653.2 mean error = 2.26811
+006.dat sigma = 233.626 sigma error = 1.58006
 0048.dat INT: 17563
-0048.dat amplitude = 166.851
-0048.dat mean = 3025.82
-0048.dat sigma = 312.818
+0048.dat amplitude = 166.851 amplitude error = 1.66867
+0048.dat mean = 3025.82 mean error = 2.77334
+0048.dat sigma = 312.818 sigma error = 1.99433
